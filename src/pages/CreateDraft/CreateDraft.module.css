@@ -1,0 +1,107 @@
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: var(--content-width);
+    margin: 0 auto;
+}
+
+.main {
+    width: 100%;
+    margin: 70px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.uploadBlock {
+    width: 400px;
+    height: 240px;
+    background: #FFFFFF;
+    border: 8px dashed #34D399;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: 700;
+    color: #10B981;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid var(--neutral-gray-light);
+}
+
+.fileItem {
+    height: 60px;
+    border: 1px solid #10B981;
+    color: #10B981;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    position: relative;
+}
+
+.deleteIcon {
+    position: absolute;
+    top: -7%;
+    right: -7%;
+    width: 20px;
+    height: 20px;
+    background: var(--error-default);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+
+.optionsBlock {
+    width: 425px;
+    background: #EFF6FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.divider {
+    height: 1px;
+    width: 90%;
+    background-color: grey;
+}
+
+.inputs {
+    width: 100%;
+    padding: 20px;
+}
+
+.input {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    margin: 10px 0;
+}

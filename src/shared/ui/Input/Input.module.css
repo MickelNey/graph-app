@@ -1,0 +1,39 @@
+.title {
+    color: var(--neutral-gray-dark);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 4px 0;
+    color: rgb(150, 149, 149);
+}
+
+.title_star:after {
+    content: ' *';
+    color: var(--error-default);
+}
+
+
+.input_container {
+    border-radius: 8px;
+    height: 44px;
+    display: flex;
+}
+
+.noValid {
+    border: 1px solid var(--neutral-gray-light);
+}
+.valid {
+    border: 1px solid var(--primary-hover);
+}
+
+input {
+    all: unset;
+}
+
+.input {
+    margin: 12px;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+    font-size: 20px;
+}

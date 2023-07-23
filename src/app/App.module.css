@@ -1,0 +1,22 @@
+body {
+    background-color: #ffffff;
+}
+  
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+  
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+  
+a {
+    text-decoration: none;
+}

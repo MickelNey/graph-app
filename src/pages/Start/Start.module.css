@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+}
+
+.image {
+    position: absolute;
+    width: 100%;
+    z-index: -2;
+}
+
+.button {
+    min-width: 200px;
+    margin: 50px 10px 10px 200px;
+}
