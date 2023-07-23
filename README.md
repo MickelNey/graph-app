@@ -1,7 +1,7 @@
 # Start project need to write in terminal step by step:
 1. yarn install,
 2. yarn run dev.
-for using server go to https://github.com/MickelNey/graph-app-server
+for using server go to [https://github.com/MickelNey/graph-app-server](https://github.com/MickelNey/graph-app-server)
 the server uses MongoDB
 
 # 4. App description (rus):
