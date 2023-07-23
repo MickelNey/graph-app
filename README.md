@@ -13,3 +13,5 @@ the server uses MongoDB
 4. Фильтры при визуализации.
 
 ![force-directed](https://github.com/MickelNey/graph-app/assets/94557417/7d31dee6-e0b8-44c7-b3dd-af87aecec23d)
+
+![upload](https://github.com/MickelNey/graph-app/assets/94557417/6b98ba53-0fcd-47c3-bd28-d7d39513f22b)
