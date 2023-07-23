@@ -11,3 +11,5 @@ the server uses MongoDB
 2. Возможность создавать свои проекты и загружать в них научные статьи в виде csv-файлов,
 3. Возможность визуализировать загруженные данные в виде графа Force Directed (библиотека D3.js),
 4. Фильтры при визуализации.
+
+![force-directed](https://github.com/MickelNey/graph-app/assets/94557417/7d31dee6-e0b8-44c7-b3dd-af87aecec23d)
