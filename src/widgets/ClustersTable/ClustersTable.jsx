@@ -1,7 +1,7 @@
 import cl from './ClustersTable.module.css'
 
 export const ClusterTable = ({data}) => {
-    console.log(data)
+    // console.log(data)
     return <>
         {data.map((cluster, index) => <SingleCluster {...cluster}/>)}
     </>

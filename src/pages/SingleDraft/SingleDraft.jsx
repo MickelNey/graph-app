@@ -2,8 +2,7 @@ import { useState } from "react";
 import {useParams} from "react-router-dom";
 import { Button, Input } from "../../shared";
 import { useClusterGraphById } from "../../entities";
-import ForceGraph from "../../widgets/ForceGraph";
-import {Header, ClusterTable}from "../../widgets";
+import {Header, ClusterTable, ForceGraph}from "../../widgets";
 import styles from './SingleDraft.module.css'
 
 export const SingleDraft = () => {
@@ -22,7 +21,7 @@ export const SingleDraft = () => {
             minClusterValue: minClusterValue,
             minNodeValue: minNodeValue
         })
-        console.log(ans)
+        // console.log(ans)
     }
 
 
